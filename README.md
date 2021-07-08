@@ -24,12 +24,12 @@ Help
 Read a TS
 ---
 `python ./tsEditor.py -r -fp 36590 -tp 36600 -pid 64 -f Sample.ts`
-Sample output (1 packet with pid 64 from packet number 36590 to 36600):
+<br>Sample output (1 packet with pid 64 from packet number 36590 to 36600):
 ![](https://github.com/kwanhiuhong/MPEG_TS_Modifier/blob/main/screenshots/read_1.png)
 <br>
 
 `python ./tsEditor.py -r -fp 36590 -tp 36600 -pid 48 -b 2 -f Sample.ts`
-Sample output (1 packet with pid 64 from packet number 36590 to 36600):
+<br>Sample output (1 packet with pid 64 from packet number 36590 to 36600):
 ![](https://github.com/kwanhiuhong/MPEG_TS_Modifier/blob/main/screenshots/read_2.png)
 <br>
 
@@ -46,6 +46,6 @@ Using the above as example, suppose there are originally 2 packets with pid 97 f
 <br>
 
 Now, we can check by using the read mode. (Note that the new file is named as <original_file_name>_output.ts)
-`python ./tsEditor.py -r -fp 36590 -tp 36600 -pid 689 -b 2 -f Sample_output.ts`
+<br>`python ./tsEditor.py -r -fp 36590 -tp 36600 -pid 689 -b 2 -f Sample_output.ts`
 ![](https://github.com/kwanhiuhong/MPEG_TS_Modifier/blob/main/screenshots/write_2.png)
 <br>
