@@ -1,7 +1,7 @@
-MPEG TS Editor
+MPEG TS Editor CLI Tool
 ===
 
-This scripts allows you to print your transport stream in hex format. 
+This CLI (Command line interface) tool allows you to print your transport stream in hex format. 
 
 You can view certain packets or bytes in hex format using the read mode.
 
